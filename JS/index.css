@@ -37,3 +37,26 @@ body{
     padding-right: 10px;
     text-decoration: none;
 }
+/* body section*/
+.content{
+    box-shadow: -1px 11px 42px -7px rgba(0,0,0,0.69);
+    padding: 16px;
+    margin-right: 36px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.game p:nth-child(1){
+    font-size: 30px;
+    text-align: center;
+}
+.game p:nth-child(2){
+    font-size: 18px;
+    text-align: center;
+}
