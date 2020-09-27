@@ -38,3 +38,23 @@ function monthvalidate(){
   
    
 }
+/*Validation for year input*/
+function yearvalidate(){
+    var years=document.gform.year.value;
+    if( years==""||isNAN(years) ||  years.length<2 ){
+        
+        if( year < 1900 || year > 2020){
+           document.getElementById("inputd").innerHTML="Please enter the date in numbers(1-31)";
+           return false;
+       }
+   }
+   else if(year.length>4){
+       document.getElementById("inputd").innerHTML="Please enter a valid date";
+           return false;
+   }
+   else{
+       return true;
+   }
+   
+    
+}
