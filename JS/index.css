@@ -89,3 +89,27 @@ body{
 .error{
     color:red;
 }
+
+/* footer section*/
+.conclude{
+    background-color: rgba(184, 35, 35, 0.637);
+    border-radius: 1rem 1rem 0 0;
+    box-shadow:  2px 0 0 0 rgba(34, 32, 32, 0.25);
+    height: 80px;
+    width:100%;
+    padding-bottom: 5px;;
+    
+
+}
+.conclude p:nth-child(1){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(19, 68, 70);  
+}
+.conclude p:nth-child(2){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center; 
+    color: rgb(19, 68, 70);  
+}
