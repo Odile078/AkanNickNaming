@@ -11,7 +11,7 @@ This is a web program created using HTML, CSS, JS with a game of discovering you
 This web application allows a user find out what their Akan name is through using their date of birth and gender. The user put in his or her information and the application dispalys their Akan name.
 
 ## Live Website
-
+(https://odile078.github.io/AkanNickNaming/)
 
 
 ## Installation / Setup instruction
