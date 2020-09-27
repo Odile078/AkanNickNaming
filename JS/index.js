@@ -89,4 +89,19 @@ var years=document.gform.year.value;
 var ind= document.gform.fname.value;
 var gend= document.getElementsByName("gender");
 
+/* calcutate the day of birth with a function*/
+
+var CC, YY, MM, DD, d, valueOfDay;
+function calcday(){
+    var years=document.gform.year.value;
+    CC = parseInt(years.substring(0,2));
+    YY = parseInt(years.substring(2,4));
+    MM = parseInt(months);
+    DD = parseInt(date);
+    d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
+    console.log(d);
+    return (Math.floor(d));
+  
+  }
+
 //
