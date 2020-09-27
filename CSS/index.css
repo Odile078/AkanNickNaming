@@ -1,0 +1,24 @@
+body{
+    background-image: url("../IMAGES/back.png");
+    
+    width:100%
+}
+
+.home{
+    height:700px;
+    
+}
+
+nav{
+    background-color: rgb(141, 206, 170);
+}
+footer{
+    background-color:  rgb(141, 206, 170);
+}
+.game{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 16%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
