@@ -1,4 +1,39 @@
 body{
-    background-color:blue;
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color: cadetblue;
+    
+}
+.navigator{
+    background-color: rgba(184, 35, 35, 0.637);
+    border-radius: 0 0 2rem 2rem;
+    box-shadow:  0 0 0 2px rgba(34, 32, 32, 0.25);
+    height: 80px;
+    padding-top: 10px;
+    
+}
+.navigator p{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding-left: 50px;
+    color: rgb(19, 68, 70);
+    
+}
+.navigator a{
+    padding-left: 100px;
+    color:rgb(19, 68, 70);
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Peddana', serif;
 
+}
+.navigator a:hover{
+    color: cadetblue;
+    border-radius:10px ;
+    box-shadow: -1px 11px 42px -7px rgba(0,0,0,0.69);
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
