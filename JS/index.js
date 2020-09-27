@@ -104,7 +104,7 @@ function calcday(){
   
   }
 
-//
+/* funtion to a person's gender and correspond it with their day of birth to later print their Akan name*/
 function genderOfPerson(){
     var gend= document.getElementsByName("gender");
     
@@ -166,4 +166,10 @@ function genderOfPerson(){
       default:
             
     }
+  }
+
+  function getname(){
+    valueOfDay = calcday();
+    genderOfPerson();
+    
   }
