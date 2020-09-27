@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Nick Naming</title>
     <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="CSS/aban.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans&family=Peddana&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,35 +20,34 @@
         </div>
 
     </section>
-    <section>
+    <section class="content">
         <div class="container">
             <div>
                 <p>Did you know that according to the Ganian culture you have an Akan name that correspond to your day of birth?</p>
                 <p>Akan names are Ghanian origin names corresponding with your daay of birth. They differ with Gender. Play this game to find out what your Akan name is </p>
                 <h3>Wondering what yours is?</h3>
                 <p> Play this game and find out.</p>
-
             </div>
             <div class="jumbotron game">
                 <p>Ready to get you Akan name?</p>
                 <p>It's simple and easy. Complete this form</p>
                 <form class="game-form" name="gform" onsubmit="formvalidate();">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name" class="mid">Name:</label>
                         <input type="text" id="name"class="form-control" name="fname" >
                     </div>
                     <div class="form-group">
-                        <label for="date">Date of birth</label>
+                        <label for="date" class="mid">Date of birth:</label>
                         <input type="number" id="date" class="form-control"  name="day" onkeyup="datevalidate();"><br>
                         <span id="inputd" class="error"></span>
                     </div>
                     <div class="form-group">
-                        <label for="month">Month</label>
+                        <label for="month" class="mid">Month:</label>
                         <input type="number" id="month" class="form-control"  name="month" onkeyup="monthvalidate();"><br>
                         <span id="inputm" class="error"></span>
                     </div>
                     <div class="form-group">
-                        <label for="year">year</label>
+                        <label for="year" class="mid">year:</label>
                         <input type="number" id="year" class="form-control"   name="year" onkeyup="yearvalidate();"><br>
                         <span id="inputy" class="error"></span>
                     </div>
@@ -67,11 +66,11 @@
                     <div>
                     <button type="submit" class="btn btn-primary"   onclick="FindName();">Get you name</button>
                 </form>
-            </div>    
-
+            </div>
         </div>
-
-    </section class="history" id="about">
+    </section>
+    <section class="history" id="about">
+    
         <div class="container " >
             <div class="about-content">
                 <h2>Origin Of Akan names</h2>
@@ -80,10 +79,9 @@
                 <h2>How does this game work</h2>
                 <hr>
                 <p>Finding you akan name require you to know exactly what day you were born on.Each day has it's corresponding names for either a girl or a boy .This game's calculation have 100% percent accuracy in calculating your day of birth , which we then use to give you your name.</p>
+
             </div>
         </div>
-    <section>
-
     </section>
     <footer>
         <div class="conclude">
@@ -92,7 +90,7 @@
         </div>
 
     </footer>
-    <script src="JS/index.js"></script>
+    <script src="JS/aban.js"></script>
     
 </body>
 </html>

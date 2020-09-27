@@ -38,6 +38,8 @@ body{
     text-decoration: none;
 }
 /* body section*/
+
+
 .content{
     box-shadow: -1px 11px 42px -7px rgba(0,0,0,0.69);
     padding: 16px;
@@ -68,6 +70,9 @@ body{
     border-radius: 10px;
     border-color: rgb(209, 244, 245);
     
+}
+.mid{
+    padding-left: 50px;
 }
 .history{
     margin-top:15px;
