@@ -58,3 +58,26 @@ function yearvalidate(){
    
     
 }
+/*Validation of the whole form just in case a user submit without filling the form*/
+
+function formvalidate(){
+    var date=document.gform.day.value;
+    var months=document.gform.month.value;
+    var years=document.gform.year.value;
+    var ind= document.gform.fname.value
+    var gend= document.getElementsByName("gender");
+
+    if( date==""||months==""||years==""||ind=="" ||gend==""){
+        alert( "Please fill out all the fields in the form!" );
+        document.myForm.day.focus() ;
+        return false;
+    }
+        
+    else{
+        return true ;
+      }
+
+}
+
+
+//
