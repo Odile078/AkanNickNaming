@@ -78,6 +78,15 @@ function formvalidate(){
       }
 
 }
+/*Array of the Akan names and days, and variables of information taken from the form */
+var namesOfDays = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
+var namesOfMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
+var namesOfFemales = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 
+var date=document.gform.day.value;
+var months=document.gform.month.value;
+var years=document.gform.year.value;
+var ind= document.gform.fname.value;
+var gend= document.getElementsByName("gender");
 
 //
