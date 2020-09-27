@@ -105,3 +105,65 @@ function calcday(){
   }
 
 //
+function genderOfPerson(){
+    var gend= document.getElementsByName("gender");
+    
+    if(gend[0].checked == true){
+      var personGender = "male";
+    }
+    else if(gend[1].checked == true){
+      var personGender = "female";
+    }
+    else{
+      return false;
+    }
+    switch(personGender){
+      case "male":
+        if (valueOfDay == 1){
+          alert("Hello "+ind+",you were born on " +namesOfDays [0] + " and Your akan name is " +namesOfMale[0]+"!");
+        }
+        else if(valueOfDay == 2){
+          alert("Hello "+ind+",you were born on "+namesOfDays [1] + " and Your akan name is " +namesOfMale[1]+"!");
+        }
+        else if(valueOfDay== 3){
+          alert("Hello "+ind+",you were born on " +namesOfDays [2]+ " and Your akan name is " +namesOfMale[2]+"!");
+        }
+        else if(valueOfDay == 4){
+          alert("Hello "+ind+",you were born on "+namesOfDays [3] +  " and Your akan name is " +namesOfMale[3]+"!");
+        }
+        else if(valueOfDay == 5){
+          alert("Hello "+ind+",you were born on "+namesOfDays [4] +  " and Your akan name is " +namesOfMale[4]+"!");
+        }
+        else if(valueOfDay == 6){
+          alert("Hello "+ind+",you were born on "+namesOfDays [5] +  " and Your akan name is " +namesOfMale[5]+"!");
+        }
+        else if(valueOfDay == -0){
+          alert("Hello "+ind+",you were born on "+namesOfDays [6] + " and Your akan name is " +namesOfMale[6]+"!");
+        }
+      break;
+      case "female":
+        if (valueOfDay == 1){
+          alert("Hello "+ind+",you were born on "+namesOfDays [0] + " and Your akan name is  " +namesOfFemales[0]+"!");
+        }
+        else if(valueOfDay == 2){
+          alert("Hello "+ind+",you were born on " +namesOfDays [1] + " and Your akan name is " +namesOfFemales[1]+"!");
+        }
+        else if(valueOfDay == 3){
+          alert("Hello "+ind+",you were born on " +namesOfDays [2] + " and Your akan name is " +namesOfFemales[2]+"!");
+        }
+        else if(valueOfDay == 4){
+          alert("Hello "+ind+",you were born on " +namesOfDays [3] + " and Your akan name is " +namesOfFemales[3]+"!");
+        }
+        else if(valueOfDay == 5){
+          alert("Hello "+ind+",you were born on " +namesOfDays [4] + " and Your akan name is " +namesOfFemales[4]+"!");
+        }
+        else if(valueOfDay == 6){
+          alert("Hello "+ind+",you were born on " +namesOfDays [5] + " and Your akan name is " + namesOfFemales[5]+"!");
+        }else if(valueOfDay == -0){
+          alert("Hello "+ind+",you were born on " +namesOfDays [6] + " and Your akan name is " +namesOfFemales[6]+"!");
+        }
+      break
+      default:
+            
+    }
+  }
